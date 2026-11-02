@@ -27,3 +27,15 @@ Contenu du Vagrantfile (deux machines : `web` en 192.168.56.11 et `db` en 192.16
 
 ![Vagrantfile](captures/04-vagrantfile.png)
 
+validation
+
+![vagrant validate](captures/05-validate.png)
+
+## Étape 3 : Scripts de provisioning
+Script `install_web.sh` (Apache, PHP, page de test) :
+
+![install_web.sh](captures/06-install-web.png)
+
+Script `install_db.sh` (MySQL, base `tp_vagrant`, utilisateur `vagrant`) :
+
+![install_db.sh](captures/07-install-db.png)
