@@ -17,3 +17,13 @@ Le disque de la VM Ubuntu-26 était plein (25 Go) : il a été agrandi à 60 Go.
 ## Étape 1 : Prérequis et dossier de travail
 ![Versions](captures/01-versions.png)
 ![Dossier du projet](captures/02-dossier.png)
+
+## Étape 2 : Création du Vagrantfile
+Commande `vagrant init` :
+
+![vagrant init](captures/03-vagrant-init.png)
+
+Contenu du Vagrantfile (deux machines : `web` en 192.168.56.11 et `db` en 192.168.56.12) :
+
+![Vagrantfile](captures/04-vagrantfile.png)
+
